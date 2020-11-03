@@ -1,0 +1,12 @@
+{
+  "entrypoint": "dependentextension.DependentExtension",
+  "name": "DependentExtension",
+  "externalDependencies": {
+    "repositories": [
+      {"name": "Central", "url": "https://repo1.maven.org/maven2/"}
+    ],
+    "artifacts": [
+      "com.squareup:javapoet:1.13.0"
+    ]
+  }
+}

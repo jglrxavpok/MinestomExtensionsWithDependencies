@@ -1,0 +1,7 @@
+{
+  "entrypoint": "extension2.Extension2",
+  "name": "Extension2",
+  "dependencies": [
+    "DependentExtension"
+  ]
+}

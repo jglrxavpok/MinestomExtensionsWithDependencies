@@ -1,0 +1,9 @@
+{
+  "entrypoint": "Extension3",
+  "name": "extension3",
+  "dependencies": [
+    "DependentExtension",
+    "Extension2"
+  ],
+  "mixinConfig": "mixins.extension3.json"
+}
