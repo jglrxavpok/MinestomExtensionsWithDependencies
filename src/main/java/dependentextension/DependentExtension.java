@@ -12,6 +12,10 @@ public class DependentExtension extends Extension {
 
     public static long initializationTime = System.nanoTime();
 
+    static {
+        System.out.println("[DependentExtension] sout in static block!");
+    }
+
     @Override
     public void initialize() {
         System.out.println("[Extension1] Extension1 was initialized at (in nanoseconds): "+ DependentExtension.initializationTime);
